@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.xk.tools'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.xk.quick2smali.Main'
+    }
+}
